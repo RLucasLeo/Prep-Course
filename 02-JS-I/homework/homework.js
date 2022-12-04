@@ -36,7 +36,7 @@ function suma(x, y) {
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
   var a;
-  a=(a+y);
+  a=(x+y);
   return(a); 
 }
 
@@ -76,8 +76,8 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1===str2){return(true);}
-  else{return (false);}
+  if (str1.length === str2.length){return true;}
+  else {return false;}
 }
 
 function menosQueNoventa(num) {
@@ -101,6 +101,7 @@ function obtenerResto(x, y) {
   // Tu código:
   var e;
   e=(x % y);
+  return e;
 }
 
 function esPar(num) {
@@ -149,19 +150,20 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  
+  return(Math.round(num));
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  
+  return(Math.ceil(num));
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  
+  var a=Math.random();
+  return a;
 }
 
 function esPositivo(numero) {
@@ -169,47 +171,63 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  
+  var a="Es positivo";
+  var b="Es negativo";
+  if (numero>0){return(a);}
+  else if(numero<0){return(b);}
+  else {return false;}
 }
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
+  var a="!";
+  var b;
+  b= str + a;
+  return b;
 }
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  
+  var nombre;
+  nombre= nombre + " " + apellido;
+  return nombre;
 }
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  
+  return ("Hola "+ nombre +"!");
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  
+  var a;
+  a=(ancho*alto);
+  return a;
 }
 
 
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  
+  var a;
+  a=lado*4;
+  return a;
 }
 
 
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-
+var a;
+a=(base*altura)/2;
+return a;
 }
 
 
@@ -217,7 +235,9 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  
+  var dolares;
+  dolares=euro*1.20;
+  return dolares;
 }
 
 
@@ -227,7 +247,11 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  
+  var a="Es vocal";
+  var b="Dato incorrecto"
+  if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u"){return a;} 
+  if (console.log(letra)>1){return b;}
+  else {return b;}
 }
 
 

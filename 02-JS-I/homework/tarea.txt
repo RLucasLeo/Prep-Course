@@ -1,0 +1,5 @@
+variables: palabras o nombres que reciben una asignacion.
+strings: cadena de palabra entre comillas.
+funciones: recibe variables como argumento y regresa un valor.
+declaracion if: se utiliza para ejecutar condiciones
+valores booleanas: variables que pueden ser verdaderas(true) o falsas(false).
