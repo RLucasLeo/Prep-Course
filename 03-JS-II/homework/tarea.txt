@@ -1,0 +1,4 @@
+for: se utiliza en ciclos de repeticon
+&&: y logico, se deben cumplir dos (o mas) condiciones
+||: o logico, se debe cumplir una de las condiciones
+!: negación, se utiliza para negar condiciones
