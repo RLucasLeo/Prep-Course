@@ -1,0 +1,1 @@
+Array: variable donde se almacenan datos de manera consecutiva en una memoria
