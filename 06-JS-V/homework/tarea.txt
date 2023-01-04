@@ -1,0 +1,2 @@
+`prototype`:es una propiedad de los objetos la cual hereda caracteristicas entre sí.
+_Constructors_ (de Clases): son las caracteristicas que componen un objeto, que se pueden compartir entre diferente clase de objetos.
