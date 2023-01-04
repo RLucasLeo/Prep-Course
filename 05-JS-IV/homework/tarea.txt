@@ -1,0 +1,5 @@
+Objetos: literalmente cosas, pueden ser cualquier tipo de cosa(personas, autos, animales, etc)
+Propiedades: Son las caracteristicas de los objetos, como altura, edad, nombre
+Métodos: o tambien llamados funciones definidas en objetos
+Bucle `for…in`: muestra cada palabra que se encuentre en un objeto/array
+Notación de puntos vs notación de corchetes: notacion de corchetes se utuliza para acceder a una propiedad edl objeto mediante el uso de corchetes; Mientras que en notacion punto, se declara el objeto+.+propiedad a la que quiere acceder.
